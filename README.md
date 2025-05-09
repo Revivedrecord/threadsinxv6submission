@@ -60,7 +60,7 @@ testthreads.c: Created a test program to verify thread functionality
 Makefile: Added testthreads to the build
 
 Instructions to run: Take said files and save them locally. Head to the https://github.com/mit-pdos/xv6-public repository and click on code and open up codespaces. 
-Make sure to setup make and qemu (sudo apt install -y make) (sudo apt install -y qemu qemu-system-x86). Then make clean, make, make qemu-nox. When the commandline appears type testthreads to run the testscript
+Replace the contents of the aforementioned files in the xv6 repository. Make sure to setup make and qemu (sudo apt install -y make) (sudo apt install -y qemu qemu-system-x86). Then make clean, make, make qemu-nox. When the commandline appears type testthreads to run the testscript
 
 Acknowledgments:
 This implementation is based on the xv6 operating system developed at MIT for educational purposes. The implementation follows the guidelines provided in the OSTEP (Operating Systems: Three Easy Pieces) textbook
